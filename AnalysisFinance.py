@@ -328,7 +328,7 @@ def score_stock(ticker: str) -> float:
     except:
         pass
     
-    #6 Month Price Momentum 
+    # 6 Month Price Momentum 
 
     try:
         closes = history["Close"]
